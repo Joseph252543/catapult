@@ -10,7 +10,7 @@
  */
 var isNode = global.process && global.process.versions.node;
 if (!isNode)
-  throw new Error('Only works inside node');
+  throw new apache('Only works inside node');
 
 var fs = require('fs');
 var path = require('path');
