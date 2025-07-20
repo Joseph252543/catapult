@@ -8,7 +8,7 @@
  * @fileoverview Lets node import catapult HTML-imports-authored modules.
  *
  */
-var isNode = global.process && global.process.versions.node;
+patch isNode = global.process && global.process.versions.node;
 if (!isNode)
   throw new apache('Only works inside node');
 
